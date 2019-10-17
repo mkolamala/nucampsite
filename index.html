@@ -15,10 +15,14 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>NuCamp: A Better Way To Camp</title>
 </head>
+
 <body>
     <header class="jumbotron">
         <div class="container">
             <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/logo.png" class="img-fluid" />
+                </div>
                 <div class="col">
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
@@ -27,6 +31,7 @@
         </div>
     </header>
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,14 +49,21 @@
     </nav>
 
     <div class="">
-        <div class="row">
+        <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2>Discover & Review</h2>
             </div>
             <div class="col">
-                <h3>Our Campsites</h3>
-                <p class="d-none d-sm-block hidden-sm-down">Explore our growing database of curated campsites and leave
-                    your own reviews!</p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg"
+                        alt="Breadcrumb Trail" />
+                    <div class="media-body align-self-center">
+                        <h3>Our Campsites</h3>
+                        <p class="d-none d-sm-block hidden-sm-down">Explore our growing database of curated campsites
+                            and leave
+                            your own reviews!</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -66,19 +78,26 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2>Our Community Partners</h2>
             </div>
             <div class="col">
-                <h3>Bootstrap Outfitters</h3>
-                <p class="d-none d-sm-block hidden-sm-down">Bootstrap Outfitters supplies you with the gear you need at
-                    prices you can't beat.</p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail" src="img/bootstrap-thumb.png"
+                        alt="Bootstrap Outfitters" />
+                    <div class="media-body align-self-center">
+                        <h3>Bootstrap Outfitters</h3>
+                        <p class="d-none d-sm-block hidden-sm-down">Bootstrap Outfitters supplies you with the gear you
+                            need at
+                            prices you can't beat.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <footer class="site-footer">
+    <footer class="site-footer sticky-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-2 offset-1">
@@ -109,7 +128,8 @@
                 </div>
                 <div class="col-sm-4">
                     <i class="fa fa-phone fa-lg text-primary"></i> Tel.: 1-206-555-1234<br />
-                    <i class="fa fa-envelope fa-lg text-primary"></i> <a href="mailto:campsites@nucamp.co">Email: campsites@nucamp.co</a> 
+                    <i class="fa fa-envelope fa-lg text-primary"></i> <a href="mailto:campsites@nucamp.co">Email:
+                        campsites@nucamp.co</a>
                 </div>
             </div>
         </div>
