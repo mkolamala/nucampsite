@@ -1,4 +1,5 @@
 $(function () {
+    //alert('script is running')
     $(".carousel").carousel({ interval: 2000 });
     $("#carouselButton").click(function(){
         if ($("#carouselButton").children("i").hasClass("fa-pause")) {
@@ -11,5 +12,14 @@ $(function () {
             $("#carouselButton").children("i").addClass("fa-pause"); 
         }
     });
+
+    $('#loginButton').click(function(){
+        $('#loginModal').modal('show');
+    });
+    $('#reserveCampsiteButton').click(function(){
+        $('#reserveModal').modal('show');
+    });
+    
+
 
 });
